@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  
+    <div class="response-area">
+   
+        <div class="form-container">
+            <p><h1>Quote</h1></p>
+    <% if (locals.description) { %>
+        
+        <p>
+         <%= description %>
+          </p>
+          <p>
+          </div>
+     
+    <% } else { %>
+     <p>No data found</p>
+<% } %>
+<br/><button id="get" onclick="window.location.href='/'" class="submit-button">GET</button>
+      </div>
+
+
+</body>
+</html>
